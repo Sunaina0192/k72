@@ -4,7 +4,7 @@ import { useLocation } from 'react-router-dom'
 export const NavbarContext = createContext()
 export const NavbarColorContext = createContext()
 
-const NavContext = ({ children }) => {
+const Navcontext = ({ children }) => {
 
     const [navColor, setNavColor] = useState('white')
     const [navOpen, setNavOpen] = useState(false)
@@ -30,4 +30,4 @@ const NavContext = ({ children }) => {
     )
 }
 
-export default NavContext
+export default Navcontext
